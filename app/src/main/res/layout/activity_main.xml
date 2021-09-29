@@ -11,6 +11,10 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
         android:text="Type a Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +44,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="type.." />
 
         <Button
             android:id="@+id/btn"
